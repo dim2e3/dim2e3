@@ -2,19 +2,95 @@
 
 ![Open to Work](https://img.shields.io/badge/Open%20to%20Work-brightgreen?style=flat-square)
 
-### Software Engineer | AWS Solutions Architect | 5x AWS Certified | CloudOps | AI/ML Engineer| Node.js
+### Software Engineer | AWS Solutions Architect | 6x AWS Certified | CloudOps | AI/ML | Node.js
 
 I'm a Software Engineer and AWS CloudOps Engineer/Solutions Architect with 20+ years in 
 software development, including 5+ years specializing in AWS cloud architecture, CloudOps, 
 and infrastructure design. I build secure, scalable cloud solutions following AWS 
 Well-Architected principles, with deep expertise in Node.js/TypeScript full-stack development 
-and a growing focus on production AI/ML systems.
+and a growing focus on production AI/ML and generative AI systems.
 
-- 🔧 Currently building cloud-native CRM/ERP systems with AWS + AI/ML integration
-- ☁️ 5x AWS Certified — Solutions Architect, CloudOps Engineer, Developer, ML Engineer, AI Practitioner
-- 🤖 Exploring AI-native development workflows — from AI-DLC pipelines to full-stack AI-assisted app building
-- 🌱 Currently deep in LLM/RAG work and AI-assisted dev workflows
+- 🤖 Hands-on builder across agentic RAG, LLM evaluation, speech ML, and generative imagery 
+  (see AI/ML Experience below)
+- ☁️ 6x AWS Certified — Solutions Architect, CloudOps Engineer, Developer, ML Engineer, 
+  AI Practitioner, Generative AI Developer (Professional)
+- 🛠️ Daily use of agentic coding tools: Claude Code, Cursor, Kiro, LM Studio
 - 📫 Connect: [LinkedIn](https://www.linkedin.com/in/dmitriy-trunov) · [X/Twitter](https://twitter.com/dmitriy_trunov)
+
+## 🤖 AI/ML & Agentic Systems Experience
+
+Hands-on builder across agentic RAG, LLM evaluation, speech ML, generative imagery, and 
+AI-native development workflows — spanning cloud-native (AWS Bedrock/Lambda) and self-hosted 
+architectures.
+
+<details>
+<summary><b>Agentic RAG & Retrieval Systems</b></summary>
+<br>
+
+- Built an agentic RAG assistant on AWS serverless infrastructure (Bedrock, Lambda, S3 Vectors, 
+  DynamoDB, CDK) with LLM tool-calling/routing, hybrid retrieval, and cross-encoder reranking; 
+  tested with pytest/moto for mocked AWS integration testing
+- Built a RAG-based project explorer (Docker/EC2) using OpenAI API, sentence-transformers, 
+  hybrid search (minsearch + PostgreSQL), and a Streamlit interface
+- Built a bilingual (Russian/English) RAG chatbot with multilingual NLP, prompt engineering, 
+  and conversational AI patterns, backed by PostgreSQL and Streamlit
+
+</details>
+
+<details>
+<summary><b>LLM Evaluation & Observability</b></summary>
+<br>
+
+- Built data pipelines and agent workflows using dlt, DuckDB, and Pydantic AI, with 
+  Logfire for observability/tracing
+- Implemented LLM-as-judge evaluation methodology with RAG evaluation metrics and feedback 
+  loop dashboards for measuring retrieval and generation quality
+
+</details>
+
+<details>
+<summary><b>AI-Native Development & Agent Orchestration</b></summary>
+<br>
+
+- Built agent-to-agent task relay workflows exploring AI-native development patterns, on a 
+  FastAPI/PostgreSQL/Kubernetes stack with Django and React/Vite frontends and CI/CD pipelines
+- Implemented a private AI-DLC (AI-Driven Development Lifecycle) platform — see section below
+
+</details>
+
+<details>
+<summary><b>Generative AI & Computer Vision</b></summary>
+<br>
+
+- Built a generative imagery SaaS product (AIPools) integrating Claude Vision, OpenAI 
+  GPT-image-1, DALL·E 2, and Replicate for AI-generated before/after visualizations, on a 
+  NestJS/Angular/TypeORM/PostgreSQL stack with AWS S3 and SendGrid
+
+</details>
+
+<details>
+<summary><b>Speech ML</b></summary>
+<br>
+
+- Built a pronunciation-training application using phoneme-level GOP (Goodness of 
+  Pronunciation) scoring, Faster-Whisper (speech-to-text), Kokoro TTS (text-to-speech), 
+  PyTorch/torchaudio, HuggingFace Transformers, and scikit-learn-based calibration
+
+</details>
+
+<details>
+<summary><b>Conversational AI / Voice Agents</b></summary>
+<br>
+
+- Built AI voice-agent automation (Trillet) for call scheduling, on serverless AWS 
+  infrastructure (Lambda via Serverless Framework/SAM) with webhook integration and 
+  Keycloak authentication
+
+</details>
+
+**Core AI/ML Stack:** Python, TypeScript/Node.js, FastAPI, RAG, agentic/multi-agent systems, 
+LLM evaluation, vector search, prompt engineering, AWS (Bedrock, Lambda, CDK, S3, DynamoDB), 
+Docker, PostgreSQL, CI/CD
 
 ## 🤖 AI-DLC Implementation
 
@@ -58,6 +134,7 @@ gaps against Anthropic's [AI-Native SDLC Playbook](https://claude.com/blog/the-a
 ![Dev](https://img.shields.io/badge/AWS-Developer%20Associate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![MLE](https://img.shields.io/badge/AWS-ML%20Engineer%20Associate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![AIP](https://img.shields.io/badge/AWS-AI%20Practitioner-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![GenAI](https://img.shields.io/badge/AWS-Generative%20AI%20Developer%20Professional-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 
 ## 📫 Connect
 
